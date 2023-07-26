@@ -1,0 +1,112 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#headerImg{
+    margin-top: 2.5vh;
+    width: 30vw;
+    height: auto;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    position: relative;
+    
+}
+#icons{
+    margin-top: 1.2vh;
+    margin-bottom: 0;
+    width: 4.5vw;
+    z-index: 10;
+    height: auto;
+    margin-left:auto;
+    margin-right:1.2vh;
+    position: relative;
+    
+}
+#logo{
+    position:fixed;
+    right: 10px;
+    top: 10px;
+    max-width: 180px;
+}
+iframe{
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+}
+canvas {
+    display: block;
+    position: absolute;
+    height: 100%;
+}
+
+h1 {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    position: absolute;
+    top: 23px;
+    font-size: 5rem;
+    color: white;
+    font-family: 'Tilt Warp', cursive;
+}
+
+h2 {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    position: absolute;
+    top: 20px;
+    color: #8098ff;
+    font-family: 'Tilt Warp', cursive;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: #000000;
+}
+
+section {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.card {
+    margin-top: 5vh;
+    margin-bottom: 20px;
+    height: 100%;
+    width: 80%;
+    border-radius: 10px;
+    /* other styles */
+    background: rgba(255,255,255, 0.03);
+    backdrop-filter: blur(10px);
+    /* fallback cross browser compatibility */
+    -webkit-backdrop-filter: blur(60px);
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    color: #fff;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 80px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.card>div>p {
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-family: 'Consolas', Courier, monospace;
+}
