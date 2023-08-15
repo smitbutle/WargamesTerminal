@@ -3,15 +3,26 @@
     padding: 0px;
     box-sizing: border-box;
 }
+.header{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 #headerImg{
-    margin-top: 2.5vh;
-    width: 30vw;
-    height: auto;
+    width: 25vw;
+    height: fit-content;
     display: block;
     margin-left:auto;
     margin-right:auto;
     position: relative;
     
+}
+#logo {
+    margin-bottom: 0;
+    height: fit-content;
+    max-width: 8vw;
 }
 #icons{
     margin-top: 1.2vh;
@@ -24,12 +35,7 @@
     position: relative;
     
 }
-#logo{
-    position:fixed;
-    right: 10px;
-    top: 10px;
-    max-width: 180px;
-}
+
 iframe{
     height: 100%;
     width: 100%;
@@ -84,7 +90,7 @@ section {
 }
 
 .card {
-    margin-top: 5vh;
+    margin-top: 2vh;
     margin-bottom: 20px;
     height: 100%;
     width: 80%;
